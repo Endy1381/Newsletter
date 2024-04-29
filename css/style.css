@@ -1,4 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(235, 18%, 26%);
+}
+
+form {
+    display: flex;
+}
+
 .ul li{
-    padding-left: 2%;
-    margin: 1%;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+
+.success {
+    display: none;
 }
